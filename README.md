@@ -1,0 +1,2 @@
+# Unifyd
+A student networking app designed to connect university classmates before and during the semester. Students can match with peers based on shared courses, clubs, and interests, making it easier to form study groups, reduce isolation in in-person, hybrid and online classes, and discover clubs.
