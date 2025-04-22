@@ -9,7 +9,7 @@ import {
 
 const BottomBar = () => {
   return (
-    <div className="fixed bottom-0 border-t border-gray-300 w-[100vw] h-[8vh] max-h-[80px] grid grid-cols-5 gap-2">
+    <div className="fixed bottom-0 border-t border-gray-300 bg-background w-[100vw] h-[8vh] max-h-[80px] grid grid-cols-5 gap-2">
       <a href="/" className="flex flex-col justify-center items-center">
         <HomeIcon className="h-8 w-8 text-text-color" />
         <p className="text-[12px]">Home</p>
