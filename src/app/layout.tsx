@@ -16,13 +16,13 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={`${poppins.className} no-scrollbar`}>
       <body>
         <div className="fixed top-0 w-full z-50">
           <TopBar />
         </div>
 
-        <main className="pt-16 pb-16">
+        <main className="pt-16 pb-16 ">
           {children}
         </main>
 
