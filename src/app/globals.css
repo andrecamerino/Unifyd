@@ -13,7 +13,12 @@
   --color-accent: #38BDF8;
   --color-background: #111827;
   --color-text-color: #F3F4F6;
+  --color-secondary-text: #B8B8B8;
   --font-main: 'Poppins', sans-serif;
+}
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }
 
 body {
