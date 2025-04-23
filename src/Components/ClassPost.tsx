@@ -37,9 +37,9 @@ const ClassPost = ({ post }: Props) => {
         <div className="flex-grow flex flex-col">
           <div className="flex justify-between items-center gap-1">
             <p className="justify-start text-xs font-bold whitespace-nowrap">
-              {post.course} {post.courseNumber}{" "}
+              {post.course} {post.courseNumber}
               <span className="text-secondary-text text-xs font-medium">
-                @{post.username} •{" "}
+                @{post.username} • 
                 {calculateTimeSince({ dateTime: post.createdAt })}
               </span>
             </p>
