@@ -6,7 +6,7 @@ const ReplyButton = ({ replyAmount }: { replyAmount: number }) => {
     <div className="flex justify-center items-center gap-2">
       <ChatBubbleLeftIcon className="w-auto h-4 text-text-color" />
       <div className="justify-start text-text-Color text-[9.33px] font-normal  leading-none">
-        {replyAmount > 0 ? `${replyAmount} Replys` : "Reply"}
+        {replyAmount > 0 ? `${replyAmount} Repliess` : "Reply"}
       </div>
     </div>
   );
